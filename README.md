@@ -3,7 +3,6 @@
 </h4>
 
 <br />
-<br />
 
  <div align="center">
     <!-- LICENSE -->
@@ -29,12 +28,11 @@
     <!-- CONTRIBUTORS -->
   <img alt="CONTRIBUTORS" src="https://img.shields.io/github/contributors/marcelo-rafael/desafio-southsystem-marcelo?style=for-the-badge&labelColor=5A5A5A&color=0077B5">
 </div>
-<br />
+
 <br />
 
 ---
 
-<br />
 <br />
 
 <h1 align="center">
@@ -51,11 +49,9 @@ O desafio consiste em criar uma página de login com usuário simples pra logar 
 A parti da página lista de dragões você consegue ver os dragões em ordem ordenada, cadastrar novo dragão, excluir dragão, editar dragão, tudo isso é consumindo uma API fornecida pela empresa.
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 
@@ -72,11 +68,9 @@ A parti da página lista de dragões você consegue ver os dragões em ordem ord
   - [x] A partir da página, deverá se possível incluir, url da imagem, nome e tipo.
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 📋 Regras:
@@ -86,11 +80,9 @@ A parti da página lista de dragões você consegue ver os dragões em ordem ord
   - [x] O uso de libs é livre.
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 📋 O que será avaliado:
@@ -100,11 +92,9 @@ A parti da página lista de dragões você consegue ver os dragões em ordem ord
   - [x] Uso adequado do css (ou alguma biblioteca).
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 📋 API:
@@ -117,13 +107,11 @@ http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon
  - [x] Deleção de um dragão: DELETE .../api/v1/dragon/:id
 
 <br />
-<br />
 
 ---
 
 
 
-<br />
 <br />
 
 ## 🎨 Layout
@@ -135,11 +123,9 @@ http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon
   <img alt="desafio" title="desafio" src=".github/desafio.gif" width="700px" />
 </h4>
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
  ## ⚔️ Desafios
@@ -153,11 +139,9 @@ http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon
     - [x] Layout responsivo
 
  <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 🛠️ Tecnologias
@@ -176,11 +160,9 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 - **[React-modal](https://www.npmjs.com/package/react-modal)**
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 🚀 Como executar o projeto
@@ -215,11 +197,9 @@ $ yarn start or npm run start
 ```
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 💪 Como contribuir para o projeto
@@ -236,11 +216,9 @@ Assim que sua pull request for mesclada, você pode excluir `your-feature`
 > Se você tiver alguma dúvida, verifique este [Guia de contribuição do GitHub](https://github.com/firstcontributions/first-contributions)
 
 <br />
-<br />
 
 ---
 
-<br />
 <br />
 
 ## 🤓 Autor
@@ -259,12 +237,11 @@ Assim que sua pull request for mesclada, você pode excluir `your-feature`
 </div>
 
 <br />
-<br />
 
 ---
 
 <br />
-<br />
+
 ## 📝 LICENÇA
 
 Este repositório está licenciado pela ** LICENÇA DO MIT **. Para obter informações mais detalhadas, leia o [LICENSE](./LICENSE) arquivo contido neste repositório.
