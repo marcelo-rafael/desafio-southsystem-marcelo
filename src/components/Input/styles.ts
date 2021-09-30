@@ -35,6 +35,10 @@ export const Container = styled.div<ContainerProps>`
     svg {
       margin-right: 1.6rem;
     }
+
+    @media(max-width: 1024px) {
+    max-width: 55rem;
+  }
 `
 
 

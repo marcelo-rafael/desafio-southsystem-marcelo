@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.div`
+
   background: var(--background-6);
   border-radius: 0.5rem;
 
@@ -12,12 +13,14 @@ export const Container = styled.div`
     padding: 3rem;
 
     h2 {
+      display: block;
+      height: 80px;
       color: var(--text-color-1);
       text-align: center;
     }
 
     img {
-      width: 40rem;
+      width: 100%;
       height: 30rem;
       margin-top:2rem;
       border-radius: 0.5rem;
@@ -27,9 +30,10 @@ export const Container = styled.div`
   section.footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     padding: 2rem 3rem;
-    background: var(--background-6);
+    background: var(--background-7);
     border-radius: 0 0 0.8rem 0.8rem;
 
     div.icon-container {

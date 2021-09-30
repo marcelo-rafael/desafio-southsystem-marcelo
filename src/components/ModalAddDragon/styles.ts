@@ -20,7 +20,7 @@ export const Form = styled(Unform)`
   }
 
   button {
-    font-weight: 600;
+    font-weight: var(--font-medium);
     border-radius: 0.8rem;
     border: 0;
     background: var(--background-4);

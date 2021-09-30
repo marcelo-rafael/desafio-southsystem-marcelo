@@ -36,7 +36,7 @@ const ModalAddDragon: React.FC<IModalProps> = ({
 
   const handleSubmit = useCallback(
     async (data: ICreateDragonData) => {
-      const { name, avatar, type, createdAt} = data;
+      const { name, avatar, type, createdAt } = data;
       handleAddDragon({ name, avatar, type, createdAt });
       setIsOpen();
     },
@@ -46,19 +46,20 @@ const ModalAddDragon: React.FC<IModalProps> = ({
   return (
     <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
       <Form ref={formRef} onSubmit={handleSubmit}>
-        <h1>Novo Dragão</h1>
+          <h1>Novo Dragão</h1>
 
-        <Input name="avatar" placeholder="Cole o link aqui" />
+          <Input name="avatar" placeholder="Cole o link aqui" />
 
-        <Input name="name" placeholder="Ex: Barriga-de-Ferro Ucraniano" />
-        <Input name="type" placeholder="Ex: Harry Potter" />
+          <Input name="name" placeholder="Ex: Barriga-de-Ferro Ucraniano" />
+          <Input name="type" placeholder="Ex: Harry Potter" />
 
-        <button type="submit" data-testid="add-dragon-button">
-          <p className="text">Adicionar Dragão</p>
-          <div className="icon">
-            <FiCheckSquare size={24} />
-          </div>
-        </button>
+          <button type="submit" data-testid="add-dragon-button">
+            <p className="text">Adicionar Dragão</p>
+            <div className="icon">
+              <FiCheckSquare size={24} />
+            </div>
+          </button>
+
       </Form>
     </Modal>
   );

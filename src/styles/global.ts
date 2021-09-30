@@ -20,17 +20,17 @@ export default createGlobalStyle`
     --text-color-4: #f4ede8;
     --text-color-5: #666360;
 
-    /*========== Font and typography ==========*/
+    /*========== Typography ==========*/
     --font-family: 'Roboto Slab', serif;
 
-    --text-font-size: 1.6rem;
+    /*========== Font size for large devices ==========*/
     --text-font-size-small: 1.4rem;
+    --text-font-size: 1.6rem;
     --h1-font-size: 3.6rem;
 
     /*========== Font weight ==========*/
     --font-regular: 400;
     --font-medium: 500;
-    --font-large: 600
   }
 
   /*========== Base ==========*/
@@ -56,11 +56,59 @@ export default createGlobalStyle`
     font-size: var(--text-font-size);
   }
 
-  h1, h2, h3, h4, h5, h6, strong {
+  h1, h2, h3 {
     font-weight: var(--font-medium);
   }
 
   button {
     cursor: pointer;
+  }
+
+  .react-modal-overlay {
+    background: #121214e6;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .react-modal-content {
+    width: 100%;
+    max-width: 576px;
+    background: var(--background-7);
+    color: var(--text-color-1);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.25rem;
+  }
+/*
+  @media(max-width: 424px) {
+    .react-modal-content {
+      width: 100%;
+    max-width: 476px;
+    padding: 2rem;
+    position: relative;
+    border-radius: 0.25rem;
+
+  }
+  }} */
+
+
+  .react-modal-close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    border: 0;
+    color: var(--text-color-1);
+    background: transparent;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 `

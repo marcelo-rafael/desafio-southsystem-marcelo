@@ -42,4 +42,10 @@ export const AnimationContainer = styled.div`
       margin-bottom: 2.4rem;
     }
   }
+
+  @media(max-width: 320px) {
+    form {
+      width: 30rem;
+    }
+  }
 `

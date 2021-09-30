@@ -3,26 +3,48 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: var(--background-1);
-  padding: 3rem 0;
+
+  max-width: 1024px;
+  margin: 0 auto;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  justify-content: center;
+  padding: 3rem 40px;
+
 
   header {
-    width: 1280px;
-
-    margin: 0 auto;
-    padding: 0 0 16rem;
+    width: 100%;
 
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 
+    margin: 40px auto 0;
+    /* margin: 0 auto; */
+    padding: 0 0 16rem;
+
+    @media(max-width: 768px) {
+    position: relative;
+  }
+
+  @media(max-width: 425px) {
+    flex-direction: column;
+    position: relative;
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
 
     h1 {
       color: var(--text-color-4);
     }
 
     nav {
+      div {
         button {
-          font-weight: var(--font-large);
+          font-weight: var(--font-medium);
           border-radius: 0.8rem;
           border: 0;
           background: var(--background-4);
@@ -50,6 +72,7 @@ export const Container = styled.div`
             background: ${shade(0.2, '#ff9000')};
           }
         }
+      }
     }
   }
 `;

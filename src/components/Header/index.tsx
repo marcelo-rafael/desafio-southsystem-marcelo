@@ -11,8 +11,11 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ openModal }) => (
   <Container>
     <header>
+
       <h1>Lista de Dragões</h1>
+
       <nav>
+        <div>
           <button
             type="button"
             onClick={() => {
@@ -24,6 +27,7 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
               <FiPlusSquare size={24} />
             </div>
           </button>
+        </div>
       </nav>
     </header>
   </Container>

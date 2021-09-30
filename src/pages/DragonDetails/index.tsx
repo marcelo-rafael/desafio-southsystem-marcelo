@@ -20,27 +20,34 @@ const DragonDetails: React.FC = () => {
 
   return (
     <Container>
-      <section className="body">
-        <img src={data?.avatar} alt={data?.name} />
-      </section>
+      <div className="content">
+        <section className="body">
+          <img src={data?.avatar} alt={data?.name} />
+        </section>
 
-      <section className="footer">
-        <h2>Nome: {data?.name}</h2>
-        <h2>Tipo: {data?.type}</h2>
-        {data && (
-          <p>Data de Criação: {
-            new Intl
-              .DateTimeFormat('pt-BR')
-              .format(
-                new Date(data.createdAt)
-              )}
-          </p>
-        )}
+        <section className="footer">
+          <h2>Nome: {data?.name}</h2>
+          <h2>Tipo: {data?.type}</h2>
+          {data && (
+            <p>Data de Criação: {
+              new Intl
+                .DateTimeFormat('pt-BR')
+                .format(
+                  new Date(data.createdAt)
+                )}
+            </p>
+          )}
 
-        <Link to="/dashboard">
-          <BsArrowLeft size={40} color="#f4ede8" />
-        </Link>
-      </section>
+          <button type="button">
+            <div className="text">Voltar</div>
+            <div className="icon">
+              <Link to="/dashboard">
+                <BsArrowLeft size={24} color="#f4ede8" />
+              </Link>
+            </div>
+          </button>
+        </section>
+      </div>
     </Container>
   )
 }

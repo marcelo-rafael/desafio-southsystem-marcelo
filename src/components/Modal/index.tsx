@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { FiX } from 'react-icons/fi';
 
 import ReactModal from 'react-modal';
 
-// interface DragonListData {
-//   id: number;
-//   name: string;
-//   type: string;
-//   createdAt: string;
-// }
 
 interface IModalProps {
   children: any;
@@ -22,32 +17,24 @@ const Modal: React.FC<IModalProps> = ({ children, isOpen, setIsOpen }) => {
     setModalStatus(isOpen);
   }, [isOpen]);
 
+  // FiX
+
   return (
     <ReactModal
       shouldCloseOnOverlayClick={!false}
       onRequestClose={setIsOpen}
       isOpen={modalStatus}
       ariaHideApp={false}
-      style={{
-        content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          marginRight: '-50%',
-          transform: 'translate(-50%, -50%)',
-          background: '#f4ede8',
-          color: '#312e38',
-          borderRadius: '8px',
-          width: '736px',
-          minHeight: '400px',
-          border: 'none',
-        },
-        overlay: {
-          backgroundColor: '#121214e6',
-        },
-      }}
+      overlayClassName="react-modal-overlay"
+      className="react-modal-content"
     >
+      <button
+        type="button"
+        onClick={setIsOpen}
+        className="react-modal-close"
+      >
+        <FiX size={30} />
+      </button>
       {children}
     </ReactModal>
   );
