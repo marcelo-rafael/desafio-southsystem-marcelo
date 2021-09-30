@@ -55,7 +55,7 @@ A parti da página lista de dragões você consegue ver os dragões em ordem ord
 <br />
 
 
-## 📋 Objetivo:
+## 📋 Objetivo e funcionalidades:
 - [x] Criar uma Página de login:
   - [x] Única página disponível se não estiver logado.
   - [x] Criar um usuário básico para acesso.
@@ -130,7 +130,7 @@ http://5c4b2a47aa8ee500142b4887.mockapi.io/api/v1/dragon
 
  ## ⚔️ Desafios
 - [x] Criar documentação
-    - [x] Gif de exemplo
+    - [x] Gif de demonstração
     - [x] Readme-me incrível
     - [x] Tecnologias usadas
     - [x] Setup do projeto
