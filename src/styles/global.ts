@@ -77,6 +77,7 @@ export default createGlobalStyle`
   }
 
   .react-modal-content {
+    position: relative;
     width: 100%;
     max-width: 576px;
     background: var(--background-7);
@@ -84,18 +85,7 @@ export default createGlobalStyle`
     padding: 3rem;
     position: relative;
     border-radius: 0.25rem;
-  }
-/*
-  @media(max-width: 424px) {
-    .react-modal-content {
-      width: 100%;
-    max-width: 476px;
-    padding: 2rem;
-    position: relative;
-    border-radius: 0.25rem;
-
-  }
-  }} */
+}
 
 
   .react-modal-close {

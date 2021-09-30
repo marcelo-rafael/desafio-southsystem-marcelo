@@ -21,7 +21,6 @@ export const Container = styled.div`
     align-items: center;
 
     margin: 40px auto 0;
-    /* margin: 0 auto; */
     padding: 0 0 16rem;
 
     @media(max-width: 768px) {
