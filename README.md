@@ -58,7 +58,7 @@ A parti da página lista de dragões você consegue ver os dragões em ordem ord
 ## 📋 Objetivo e funcionalidades:
 - [x] Criar uma Página de login:
   - [x] Única página disponível se não estiver logado.
-  - [x] Criar um usuário básico para acesso.
+  - [x] Criar um usuário básico para acesso.(email: email@teste.com password: 123456)
 - [x] Criar uma página de lista de dragões:
   - [x] Os nomes devem estar em ordem alfabética.
   - [x] A partir da lista, deverá ser possível remover e alterar as informações dos dragões.
